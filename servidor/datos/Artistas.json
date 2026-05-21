@@ -1,0 +1,55 @@
+{
+    "artistas": [
+        {
+            "id": 1,
+            "nick": "diwin_art",
+            "nombre": "Diana Romero",
+            "contrasenia": "2daw",
+            "email": "diwin.art@gmail.com",
+            "especialidad": "Ilustración digital y diseño gráfico",
+            "imgPerfil": "diwin_art.png",
+            "descripcion": "Ilustradora con 5+ años de experiencia en arte digital. Especializada en personajes y conceptos.",
+            "ubicacion": "España",
+            "redesSociales": {
+                "instagram": "@diwin_art",
+                "tiktok": "@diwin_art",
+                "pinterest": "@diwin_art",
+                "x": ""
+            }
+        },
+        {
+            "id": 2,
+            "nick": "carles_dalmau",
+            "nombre": "Carles Dalmau",
+            "contrasenia": "2daw",
+            "email": "carles.dalmau@gmail.com",
+            "especialidad": "Ilustración digital y diseño de personajes",
+            "imgPerfil": "carles_dalmau.png",
+            "descripcion": "Ilustrador especializado en conceptos y personajes para comics y novelas gráficas",
+            "ubicacion": "Barcelona, España",
+            "redesSociales": {
+                "instagram": "@carles_dalmau",
+                "tiktok": "",
+                "pinterest": "",
+                "x": ""
+            }
+        },
+        {
+            "id": 3,
+            "nick": "colorful_and_wild",
+            "nombre": "Jess",
+            "contrasenia": "2daw",
+            "email": "colorful_and_wild@gmail.com",
+            "especialidad": "Ilustración digital y diseño de personajes",
+            "imgPerfil": "jess.png",
+            "descripcion": "Digital Artist (CSP) Character Design and Illustrations",
+            "ubicacion": "California, Estados Unidos",
+            "redesSociales": {
+                "instagram": "@colorful.and.wild",
+                "tiktok": "",
+                "pinterest": "",
+                "x": ""
+            }
+        }
+    ]
+}

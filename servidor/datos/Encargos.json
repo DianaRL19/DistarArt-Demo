@@ -1,0 +1,184 @@
+{
+    "encargos": [
+        {
+            "id": 1,
+            "nombre": "Logo para proyecto de plantas",
+            "descripcion": "Diseño de logotipo juguetón para una aplicación de cuidados y consejos para amantes de las plantas.",
+            "id_cliente": 8,
+            "id_artista": 1,
+            "precio": 14.99,
+            "fechaEntrega": "2026-05-15",
+            "estado": "completado",
+            "fase": 8,
+            "imagenes": [
+                "logo_para_aplicacin_de_plantas_finalizado_2.png"
+            ],
+            "nombre_cliente": "Néstor De La Vega",
+            "email_cliente": "nestor@gmail.com",
+            "direccion_cliente": "C\/Néstor 456",
+            "pais_cliente": "España",
+            "presupuesto_cliente": 30,
+            "borrado": false
+        },
+        {
+            "id": 2,
+            "nombre": "Diseño cabeza personaje \"Emily\" para una novela",
+            "descripcion": "Diseño para la protagonista de una novela gráfica de ciencia ficción.\r\nMirada desafiante, ojos ligeramente rasgados, flequillo y la boca pequeña.  Paleta de colores ocura.",
+            "id_cliente": 2,
+            "id_artista": 1,
+            "precio": 20,
+            "fechaEntrega": "2026-06-20",
+            "estado": "en proceso",
+            "fase": 3,
+            "imagenes": [
+                "encargo_1_1778767935.png"
+            ],
+            "nombre_cliente": "Ana Mar Flores",
+            "email_cliente": "anita@gmail.com",
+            "direccion_cliente": "C\/Ana 456",
+            "pais_cliente": "España",
+            "presupuesto_cliente": 30,
+            "borrado": false
+        },
+        {
+            "id": 3,
+            "nombre": "Cómic portada - Aventura",
+            "descripcion": "Portada ilustrada para cómic de aventura y acción",
+            "id_cliente": 5,
+            "id_artista": 3,
+            "precio": 200,
+            "fechaEntrega": "2026-06-10",
+            "estado": "pendiente",
+            "fase": 1,
+            "imagenes": [
+                "EncargoDefault.png"
+            ],
+            "nombre_cliente": "David Valverde",
+            "email_cliente": "david@gmail.com",
+            "direccion_cliente": "C\/David 456",
+            "pais_cliente": "España",
+            "presupuesto_cliente": 30,
+            "borrado": false
+        },
+        {
+            "id": 4,
+            "nombre": "Personaje OC Comic",
+            "descripcion": "Diseño de personaje original para novela de fantasía",
+            "id_cliente": 1,
+            "id_artista": 1,
+            "precio": 50,
+            "fechaEntrega": "2026-05-25",
+            "estado": "en proceso",
+            "fase": 3,
+            "imagenes": [
+                "personaje_oc_comic.jpg"
+            ],
+            "nombre_cliente": "Lucia Lagos",
+            "email_cliente": "lucylc@gmail.com",
+            "direccion_cliente": "C\/Lucia 123",
+            "pais_cliente": "España",
+            "presupuesto_cliente": 50,
+            "borrado": false
+        },
+        {
+            "id": 5,
+            "nombre": "Diseño mural digital - Café",
+            "descripcion": "Diseño de mural digital para fachada de café temático",
+            "id_cliente": 6,
+            "id_artista": 2,
+            "precio": 700,
+            "fechaEntrega": "2026-07-01",
+            "estado": "pendiente",
+            "fase": 1,
+            "imagenes": [
+                "EncargoDefault.png"
+            ],
+            "nombre_cliente": "Nicky Paz",
+            "email_cliente": "nicky@gmail.com",
+            "direccion_cliente": "C\/Nicky 123",
+            "pais_cliente": "Honduras",
+            "presupuesto_cliente": 40,
+            "borrado": false
+        },
+        {
+            "id": 6,
+            "nombre": "Fanart - Personaje videojuego",
+            "descripcion": "Ilustración de fanart de personaje principal",
+            "id_cliente": 2,
+            "id_artista": 2,
+            "precio": 70,
+            "fechaEntrega": "2026-05-18",
+            "estado": "completado",
+            "fase": 8,
+            "imagenes": [
+                "EncargoDefault.png"
+            ],
+            "nombre_cliente": "Ana Mar Flores",
+            "email_cliente": "anita@gmail.com",
+            "direccion_cliente": "C\/Ana 456",
+            "pais_cliente": "España",
+            "presupuesto_cliente": 30,
+            "borrado": false
+        },
+        {
+            "id": 7,
+            "nombre": "Retrato digital - Familia",
+            "descripcion": "Retrato artístico digital de familia al estilo ilustración",
+            "id_cliente": 1,
+            "id_artista": 1,
+            "precio": 84.99,
+            "fechaEntrega": "2025-12-20",
+            "estado": "pendiente",
+            "fase": 1,
+            "imagenes": [
+                "EncargoDefault.png"
+            ],
+            "nombre_cliente": "Lucia Lagos",
+            "email_cliente": "lucylc@gmail.com",
+            "direccion_cliente": "C\/Lucia 123",
+            "pais_cliente": "España",
+            "presupuesto_cliente": 90,
+            "borrado": false
+        },
+        {
+            "id": 8,
+            "nombre": "Diseño de personaje - OC",
+            "descripcion": "Diseño de personaje original para worldbuilding de fantasía oscura",
+            "id_cliente": 2,
+            "id_artista": 3,
+            "precio": 85,
+            "fechaEntrega": "2025-11-10",
+            "estado": "completado",
+            "fase": 8,
+            "imagenes": [
+                "EncargoDefault.png"
+            ],
+            "nombre_cliente": "Ana Mar Flores",
+            "email_cliente": "anita@gmail.com",
+            "direccion_cliente": "C\/Ana 456",
+            "pais_cliente": "España",
+            "presupuesto_cliente": 30,
+            "borrado": false
+        },
+        {
+            "id": 9,
+            "nombre": "Dibujo de la rata mascota de la clienta",
+            "descripcion": "Dibujo de rata sobre 2 patas mirando hacia arriba",
+            "id_cliente": null,
+            "id_artista": 1,
+            "precio": 20,
+            "fechaEntrega": "2026-06-05",
+            "estado": "en proceso",
+            "fase": 4,
+            "imagenes": [
+                "encargo_1_1779177950.jpg"
+            ],
+            "nombre_cliente": "Elisa Zaino",
+            "email_cliente": "elisazagi@gmail.com",
+            "direccion_cliente": "C\/ Lo Zaino",
+            "pais_cliente": "Italia",
+            "presupuesto_cliente": 23,
+            "borrado": false
+        }
+    ]
+}

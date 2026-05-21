@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociales — DistarArt</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="ventana-body centrada">
+
+    <div class="ventana-tarjeta vredes">
+
+        <p class="vredes-titulo">Enlazar redes sociales</p>
+        <p class="vredes-subtitulo">Introduce tu usuario en cada red. Puedes dejar en blanco las que no uses.</p>
+
+        <div class="vredes-campo">
+            <img src="../servidor/imagenes/redes/instagram.png" class="vredes-icono" alt="Instagram">
+            <div class="vredes-grupo">
+                <label for="inp-instagram">Instagram</label>
+                <input type="text" id="inp-instagram" placeholder="@tu_usuario">
+            </div>
+        </div>
+
+        <div class="vredes-campo">
+            <img src="../servidor/imagenes/redes/tiktok.png" class="vredes-icono" alt="TikTok">
+            <div class="vredes-grupo">
+                <label for="inp-tiktok">TikTok</label>
+                <input type="text" id="inp-tiktok" placeholder="@tu_usuario">
+            </div>
+        </div>
+
+        <div class="vredes-campo">
+            <img src="../servidor/imagenes/redes/pinterest.png" class="vredes-icono" alt="Pinterest">
+            <div class="vredes-grupo">
+                <label for="inp-pinterest">Pinterest</label>
+                <input type="text" id="inp-pinterest" placeholder="@tu_usuario">
+            </div>
+        </div>
+
+        <div class="vredes-campo">
+            <img src="../servidor/imagenes/redes/x.png" class="vredes-icono" alt="X (Twitter)">
+            <div class="vredes-grupo">
+                <label for="inp-x">X (Twitter)</label>
+                <input type="text" id="inp-x" placeholder="@tu_usuario">
+            </div>
+        </div>
+
+        <button class="vredes-btn-guardar" id="vredes-guardar">Guardar y enlazar cuentas</button>
+        <p class="vredes-msj vredes-msj-ok oculto" id="vredes-msj-ok">¡Redes guardadas!</p>
+        <p class="vredes-msj vredes-msj-error oculto" id="vredes-msj-error"></p>
+
+    </div>
+
+    <script type="module" src="../js/ventanas/ventana-redes.js"></script>
+</body>
+</html>

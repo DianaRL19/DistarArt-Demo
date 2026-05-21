@@ -1,0 +1,39 @@
+{
+    "logros": [
+        {
+            "imagen": "primer-trazo.png",
+            "titulo": "Primer trazo",
+            "info": "Recibe tu primer encargo",
+            "categoria": "encargos",
+            "referencia": 1
+        },
+        {
+            "imagen": "coleccionista.png",
+            "titulo": "Coleccionista",
+            "info": "Acumula 5 o más encargos",
+            "categoria": "encargos",
+            "referencia": 5
+        },
+        {
+            "imagen": "popular.png",
+            "titulo": "Popular",
+            "info": "Recibe 3 o más encargos",
+            "categoria": "encargos",
+            "referencia": 3
+        },
+        {
+            "imagen": "multitarea.png",
+            "titulo": "Multitarea",
+            "info": "Trabaja con 3 o más clientes distintos",
+            "categoria": "clientes",
+            "referencia": 3
+        },
+        {
+            "imagen": "IMPRESORA-HUMANA.png",
+            "titulo": "Imprenta humana",
+            "info": "Completa 5 o más proyectos",
+            "categoria": "completados",
+            "referencia": 5
+        }
+    ]
+}

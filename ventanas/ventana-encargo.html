@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encargo — DistarArt</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="ventana-popup">
+
+    <div class="vencargo-ventana">
+
+        <h3 class="vencargo-titulo" id="vencargo-titulo">Nuevo Encargo</h3>
+
+        <div class="vencargo-columnas">
+
+            <!-- __ Columna izquierda — datos del encargo __ -->
+            <div class="vencargo-col">
+
+                <p class="vencargo-separador">Datos del encargo</p>
+
+                <label for="nombre">Nombre del encargo</label>
+                <input type="text" id="nombre" class="vencargo-input" placeholder="Nombre del encargo">
+
+                <label for="descripcion">Descripción</label>
+                <textarea id="descripcion" class="vencargo-input vencargo-textarea" placeholder="Descripción del encargo"></textarea>
+
+                <label>Imagen del encargo</label>
+                <div class="vencargo-imagen-zona">
+                    <img id="imagenPreview" class="vencargo-preview"
+                        src="../servidor/imagenes/encargos/EncargoDefault.png" alt="Vista previa">
+                    <div>
+                        <label for="inputImagen" class="vencargo-btn-subir">Selecciona una imagen</label>
+                        <input type="file" id="inputImagen" accept="image/jpeg,image/png" style="display:none">
+                        <p class="vencargo-nombre-archivo" id="nombreArchivo">Ningún archivo seleccionado</p>
+                    </div>
+                </div>
+
+                <label>Fase del encargo</label>
+                <div class="vencargo-fases" id="vencargo-fases"></div>
+
+                <div class="vencargo-fila">
+                    <div>
+                        <label for="fecha">Fecha de entrega</label>
+                        <input type="date" id="fecha" class="vencargo-input">
+                    </div>
+                    <div>
+                        <label for="estado">Estado</label>
+                        <select id="estado" class="vencargo-input">
+                            <option value="pendiente">Pendiente</option>
+                            <option value="en proceso">En proceso</option>
+                            <option value="completado">Completado</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- __ Columna derecha — datos del cliente __ -->
+            <div class="vencargo-col">
+
+                <p class="vencargo-separador">Datos del cliente</p>
+
+                <div class="vencargo-fila">
+                    <div>
+                        <label for="nombre_cliente">Nombre del cliente</label>
+                        <input type="text" id="nombre_cliente" class="vencargo-input" placeholder="Nombre y apellidos">
+                    </div>
+                    <div>
+                        <label for="email_cliente">Email del cliente</label>
+                        <input type="email" id="email_cliente" class="vencargo-input" placeholder="correo@ejemplo.com">
+                    </div>
+                </div>
+
+                <div class="vencargo-fila">
+                    <div>
+                        <label for="direccion_cliente">Dirección</label>
+                        <input type="text" id="direccion_cliente" class="vencargo-input" placeholder="Calle, número...">
+                    </div>
+                    <div>
+                        <label for="pais_cliente">País</label>
+                        <select id="pais_cliente" class="vencargo-input">
+                            <option value="">- Elige el país -</option>
+                            <!-- Se rellena dinámicamente desde JS -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="vencargo-fila">
+                    <div>
+                        <label for="presupuesto_cliente">Presupuesto cliente (€)</label>
+                        <input type="number" id="presupuesto_cliente" class="vencargo-input" placeholder="0.00" min="0" step="0.01">
+                    </div>
+                    <div>
+                        <label for="precio">Precio acordado (€)</label>
+                        <input type="number" id="precio" class="vencargo-input" placeholder="0.00" min="0" step="0.01">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <p class="vencargo-msj oculto" id="vencargo-error"></p>
+        <button class="vencargo-btn-guardar" id="vencargo-guardar">Guardar encargo</button>
+
+    </div>
+
+    <script type="module" src="../js/ventanas/ventana-encargo.js"></script>
+</body>
+</html>
