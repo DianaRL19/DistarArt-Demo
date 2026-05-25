@@ -1857,7 +1857,7 @@ h3 {
 /* ______ Contenedor general ______ */
 .perfil-content {
     flex: 1;
-    padding: 1rem 3rem;
+    padding: 1rem;
 }
 
 /* ______ Cabecera del perfil ______ */
