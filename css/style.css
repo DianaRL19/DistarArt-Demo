@@ -1664,7 +1664,7 @@ h3 {
     }
 
     .encargos-lista {
-        padding: 2rem;
+        padding: 0;
         color: var(--color-texto-claro);
     }
 
@@ -1682,7 +1682,7 @@ h3 {
         gap: 0;
         border-left: none;
         border-top: 4px solid;
-        margin: 1rem 0;
+        margin: 1rem;
         padding: 0;
     }
 
@@ -1723,7 +1723,7 @@ h3 {
     }
 
     .tarjeta-cuerpo {
-        flex-direction: row;
+        flex-direction: column;
         gap: 0.75rem;
         border-right: none;
     }
@@ -1761,7 +1761,7 @@ h3 {
         gap: 0.5rem;
         align-items: center;
         justify-content: space-between;
-        padding: 0rem 1rem 1rem 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         border-left: none;
         background: transparent;
     }
@@ -1776,7 +1776,7 @@ h3 {
 
     .btn-editar {
         flex: none;
-        margin-left: 21rem;
+        margin-left: auto;
     }
 
     .btn-editar img {
@@ -2853,6 +2853,17 @@ h3 {
     gap: 0.8rem;
 }
 
+@media (max-width: 520px) {
+    #lista-logros {
+        grid-template-columns: 1fr;
+    }
+
+    .ventana-tarjeta {
+        padding: 1.2rem;
+        border-radius: 0.8rem;
+    }
+}
+
 /* ______ VENTANA REDES SOCIALES ______ */
 .ventana-tarjeta.vredes {
     max-width: 520px;
@@ -3137,6 +3148,30 @@ h3 {
 
 .vencargo-btn-guardar:hover {
     opacity: 0.9;
+}
+
+/* ______ VENTANA ENCARGO - Responsive ______ */
+@media (max-width: 600px) {
+    .vencargo-ventana {
+        padding: 1rem;
+        border-radius: 0.6rem;
+    }
+
+    .vencargo-columnas {
+        grid-template-columns: 1fr;
+    }
+
+    .vencargo-fila {
+        grid-template-columns: 1fr;
+    }
+
+    .vencargo-imagen-fase {
+        grid-template-columns: 1fr;
+    }
+
+    .vencargo-fases {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .vencargo-msj {
